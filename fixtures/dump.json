@@ -1,0 +1,54 @@
+[
+{
+  "model": "todo.todolist",
+  "pk": 1,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Субботний вебинар",
+    "memo": "Придумать тему для обсуждения в субботу на вебинаре, повторить ООП",
+    "date_created": "2023-02-17T08:17:56.947Z",
+    "date_completed": null,
+    "important": true,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 2,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Загрузить код приложения на Git",
+    "memo": "При загрузке на забыть настроить файл .igitignore, чтобы лишние файлы не попадали в гит",
+    "date_created": "2023-02-17T08:23:43.257Z",
+    "date_completed": null,
+    "important": false,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 3,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "21 февраля выходит Atomic Heart",
+    "memo": "Не делать предзаказ, потому что непонятно, что вообще будет за игра",
+    "date_created": "2023-02-17T08:24:58.801Z",
+    "date_completed": null,
+    "important": false,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 4,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "16 числа сходить на Человек-Муравей 3",
+    "memo": "квантования пока не радует своими отзывами, можно пока не торопиться",
+    "date_created": "2023-02-17T08:25:43.062Z",
+    "date_completed": "2023-02-17T08:25:48.913Z",
+    "important": false,
+    "user": 1
+  }
+}
+]
