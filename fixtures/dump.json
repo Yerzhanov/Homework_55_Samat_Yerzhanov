@@ -1,0 +1,152 @@
+[
+{
+  "model": "todo.todolist",
+  "pk": 1,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Субботний вебинар",
+    "memo": "Придумать тему для обсуждения в субботу на вебинаре, повторить ООП",
+    "date_created": "2023-02-17T08:17:56.947Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": true,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 2,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Загрузить код приложения на Git",
+    "memo": "При загрузке на забыть настроить файл .igitignore, чтобы лишние файлы не попадали в гит",
+    "date_created": "2023-02-17T08:23:43.257Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 3,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "21 февраля выходит Atomic Heart",
+    "memo": "Не делать предзаказ, потому что непонятно, что вообще будет за игра",
+    "date_created": "2023-02-17T08:24:58.801Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 4,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "16 числа сходить на Человек-Муравей 3",
+    "memo": "квантования пока не радует своими отзывами, можно пока не торопиться",
+    "date_created": "2023-02-17T08:25:43.062Z",
+    "date_completed": "2023-02-17T08:25:48.913Z",
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 1
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 7,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Купить новый Mac",
+    "memo": "Нужно больше оперативной памяти для работы",
+    "date_created": "2023-02-24T06:29:41.650Z",
+    "date_completed": "2023-02-24T06:29:47.360Z",
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 2
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 11,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Подготовится к контрольной работе на 25/02/2023",
+    "memo": "Повторить все темы для контрольной работы, посмотреть с самого начала, ибо немного запутался в коде занятия",
+    "date_created": "2023-02-24T07:53:35.740Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": true,
+    "user": 2
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 12,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Настроить телефон жене",
+    "memo": "После смены телефона, все данные нужно обновить",
+    "date_created": "2023-02-24T07:54:21.569Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": true,
+    "user": 2
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 13,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Поработать с лабораторкой",
+    "memo": "Более красивое и корректное отображение страниц товаров и категорий",
+    "date_created": "2023-02-24T07:55:27.159Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 2
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 14,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Подстричься",
+    "memo": "На понедельник записаться на стрижку",
+    "date_created": "2023-02-24T07:55:50.603Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 2
+  }
+},
+{
+  "model": "todo.todolist",
+  "pk": 15,
+  "fields": {
+    "status": "ACTIVE",
+    "title": "Сделать предзаказ на RE4 remake",
+    "memo": "До марта сделать заказа, потому что может подорожать",
+    "date_created": "2023-02-24T07:57:40.907Z",
+    "date_completed": null,
+    "is_deleted": false,
+    "date_deleted": null,
+    "important": false,
+    "user": 2
+  }
+}
+]
