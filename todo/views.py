@@ -52,10 +52,11 @@ def createtodo(request):
     else:
         try:
             form = TodoForm(request.POST)
-            new_to_do = form.save(commit=False)
-            new_to_do.user = request.user
-            new_to_do.save()
-            return redirect('currenttodos')
+            if form.is_valid():
+                new_to_do = form.save(commit=False)
+                new_to_do.user = request.user
+                new_to_do.save()
+                return redirect('currenttodos')
         except ValueError:
             return render(request, 'todo/createtodo.html', {'form': TodoForm(), 'error': 'Были переданы неверные данные. Попробуйте снова.'})
 
@@ -92,10 +93,21 @@ def completetodo(request, todo_pk):
         return redirect('currenttodos')
 
 @login_required()
+def confirm_deletetodo(request, todo_pk):
+    todo = get_object_or_404(Todolist, pk=todo_pk, user=request.user)
+    return redirect('deletetodo')
+
+@login_required()
 def deletetodo(request, todo_pk):
     todo = get_object_or_404(Todolist, pk=todo_pk, user=request.user)
     if request.method == 'POST':
+        todo.date_deleted = timezone.now()
         todo.delete()
         return redirect('currenttodos')
+
+@login_required()
+def deletedtodos(request):
+    todos = Todolist.objects.filter(user=request.user, date_deleted__isnull=False).order_by('-date_deleted')
+    return render(request, 'todo/deletedtodos.html', {'todos': todos})
 
 
