@@ -34,6 +34,9 @@
                 <li class="nav-item {{ completed }}">
                     <a class="nav-link" href="{% url 'completedtodos' %}">Выполненные</a>
                 </li>
+                <li class="nav-item {{ deleted }}">
+                    <a class="nav-link" href="{% url 'deletedtodos' %}">Удаленные дела</a>
+                </li>
                 <li class="nav-item {{ create }}">
                     <a class="nav-link" href="{% url 'createtodo' %}">Создать новое напоминание</a>
                 </li>
