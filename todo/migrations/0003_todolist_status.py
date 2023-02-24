@@ -16,3 +16,4 @@ class Migration(migrations.Migration):
             field=models.CharField(choices=[('ACTIVE', 'Активна'), ('NOT_ACTIVE', 'Неактивна')], default='ACTIVE', max_length=20, verbose_name='Статус'),
         ),
     ]
+

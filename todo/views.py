@@ -111,3 +111,4 @@ def deletedtodos(request):
     return render(request, 'todo/deletedtodos.html', {'todos': todos})
 
 
+
